@@ -75,3 +75,17 @@ Every person and every electrode placement generates signals of different intens
 
 // Adjusts the sensitivity to muscle contraction
 #define SOGLIA 100
+
+```
+
+* `DIM` **(Array Size):** Indicates how many samples to use to calculate the average.
+
+  * *The larger it is:* the movement is more linear but slightly delayed.
+
+  * *The smaller it is:* the response is reactive, but the movement could be jerky.
+
+* `SOGLIA` **(Contraction Trigger):** It is the value beyond which Arduino considers the muscle "contracted".
+
+  * If the servo moves by itself at rest, **increase** the threshold.
+
+  * If you have to strain too much to move the servo, **decrease** the threshold.
