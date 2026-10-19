@@ -10,7 +10,7 @@ In this project, we will see how to move a servo motor every time we open and cl
 
 ## 📺 YouTube Tutorial
 To see the project in action and follow the steps visually, check out the full video tutorial on my channel:
- **[Insert your YouTube video link here]**
+ [![EMG with Arduino](https://img.youtube.com/vi/FaxNfGofi6A/0.jpg)](https://www.youtube.com/watch?v=FaxNfGofi6A)
 
 ---
 
